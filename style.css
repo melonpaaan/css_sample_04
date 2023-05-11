@@ -1,6 +1,8 @@
 @charset   "UTF-8";
 body {
   background-color: gray;
+  background-image: url("images/bg.jpg");
+  background-size: cover;
 }
  
 #wrap {
@@ -12,8 +14,14 @@ body {
 header   {
   padding: 40px;
   height: 80px;
+  background-image: url("images/pattern.png");
+  background-repeat: repeat;
 }
- 
+
+header p {
+  font-family: 'Noto Serif JP', sans-serif;
+}
+
 nav {
   padding: 8px 40px;
   background-color: black;
@@ -24,10 +32,26 @@ main{
   padding: 40px;
   height : 400px;
 }
- 
+
+main p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  text-align: center;
+}
+main ul {
+  list-style-type: square;
+}
+main ol {
+  list-style-type: upper-roman;
+}
 footer   {
   padding: 40px;
   height: 40px;
   background-color : black;
   color: white;
+  background-image: url("images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 200px 50px;
+  background-position: center bottom;
 }
